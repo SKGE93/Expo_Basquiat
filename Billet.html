@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name = "viewport" content="width=device-width,initial-scale=1.0">
+	    <link type="text/css" rel="stylesheet" href="SITE_Expo.css"/>
+		<title>Système de Billetterie</title>
+</head>
+<body>
+<nav class="navbar" >
+  <a href="Accueil.html" class="logo" img src="Logooo.png"> <img src="./images/Logooo.png" width="300" top="50"> </a>
+  <div class="container">
+    <!--<a href="#" class="logo">Logo</a>-->
+    <ul class="menu">
+      <li><a href="Accueil.html" id="Accueil">Accueil</a></li>
+      <li><a href="Expo2023.html">Expo2023</a></li>
+      <li><a href="Expo2024.html">Expo2024</a></li>
+      <li><a href="Equipe.html" id="team">Notre Equipe</a></li>
+      <li><a href="Billet.html" id="billet">Billetterie</a></li>
+      <li><img class="lang_button" src="./images/fr_flag.png" /></li>
+    </ul>
+  </div>
+</nav>
+
+   <br> 
+  <h1>Billetterie</h1>
+
+<div class="box Cadre-Billet-form">
+  <form action="process.php" method="post" class>
+
+    <label for="name" id="nom">Nom :</label>
+    <input type="text" id="name" name="name" required>
+    <label for="email" id="mail">Email :</label>
+    <input type="email" id="email" name="email" required>
+
+    <label for="quantity" id="quantite">Quantité :</label>
+    <select id="quantity" name="quantity" required>
+      <option value="" id="Select">Sélectionnez la quantité</option>
+      <option value="1" >1</option>
+      <option value="2">2</option>
+      <option value="3">3</option>
+      <option value="4">4</option>
+      <option value="4">5</option>
+      <option value="4">6</option>
+      <option value="4">7</option>
+      <option value="4">8</option>
+      <option value="4">9</option>
+      <option value="4">10</option>
+      <option value="4">11</option>
+      <option value="4">12</option>
+      <option value="4">13</option>
+      <option value="4">14</option>
+      <option value="4">15</option>
+    </select>
+    <input type="submit" value="Acheter des billets" id="achtb">
+  </form>
+  <img src="./images/Affiche.png" class="Affiche">
+</div>
+
+<div class="box" style="margin-top: 50px;">
+  <div class="Cadre-Exposition-2024-5">
+    <h2 id="info">Informations pratiques</h2>
+
+    <div class="transport-list">
+      <h3 id="transport">Transports en commun :</h3>
+      <ul>
+        <li id="1"><span>Métro :</span> Ligne 1 - Station "Les Sablons"</li>
+        <li id="2"><span>Bus :</span> Ligne N11 - Arrêt "Les Sablons"</li>
+        <li id="3"><span>Bus :</span> Ligne N24 - Arrêt "Nom de l'arrêt"</li>
+        <li id="4"><span>Bus :</span> Ligne 63 - Arrêt "Fondation L. vuitton"</li>
+        <li id="5"><span>Bus :</span> Ligne 244 - Arrêt "Fondation L. vuitton"</li>
+        <li id="6"><span>Autre :</span> Station Vélib 16123 (Mahatma Gandhi)</li>
+      </ul>
+    </div>
+
+    <div class="transport-list">
+      <h3 id="schedule">Horaires :</h3>
+      <ul>
+        <li id="7"><span>Lundi - Vendredi :</span> 9h00 - 18h00</li>
+        <li id="8"><span>Samedi :</span> 10h00 - 16h00</li>
+        <li id="9"><span>Dimanche :</span> 12H00-16H00</li>
+      </ul>
+    </div>
+  </div>
+
+  </div>
+  <div class="footerHeight">
+    <footer>
+      <ul>
+        <li><a href="#" id="mention">Mentions légales</a></li>
+        <li><a href="#" id="contact">Nous contacter</a></li>
+      </ul>
+      <p id="fonda">&copy; 2023 Fondation Louis Vuitton. Tous droits réservés.</p>
+    </footer>
+  </div>
+
+  <script src="translate.js"></script>
+
+</body>
+</html>

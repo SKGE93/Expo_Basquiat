@@ -1,0 +1,531 @@
+*
+{
+    margin:0;
+    padding:0;
+    text-decoration:none;
+    list-style: none;
+}
+
+body 
+{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+/*-----------------------------------------Navbar---------------------------------------------------------------------*/
+
+.navbar {
+  top: 0;
+  position: fixed;
+    background-color: #000000;
+    height: 80px;/*largeur de la navbar*/
+    display: flex;
+    justify-content: space-between;
+    align-items: center;/*les 2 sont en décalé*/
+    padding: -30px;/*largeur de la navbar aussi*/
+    font-family: Arial, sans-serif;
+    width: 100%;
+  }
+  
+  .container {
+    
+    margin: 10px auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    
+  }
+  
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #fff;
+ 
+  }
+  
+  .menu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-grow: 1;
+  }
+  
+  .menu li {
+    margin-right: 80px;/*la distance entre les li*/
+  }
+  
+  .menu li a {
+    text-decoration: none;
+    color: #fff;
+    transition: color 0.3s ease;
+	font-weight: bold;
+	padding: 10px 20px;
+	border-radius: 25px;
+	background-color: #5b5b5b;
+  }
+  
+  .menu li a:hover {
+    color: #ccc;
+	background-color: #45a049; 
+  }
+
+.lang_button {
+	width: 35px;
+	height: 20px;
+}
+
+/*----------------------------------------------Phrase d'accroche--------------------------------------------------------------*/
+h4 
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #000000;
+    font-size: 30px;
+    text-align: center;
+    display: inline-block;
+    white-space: nowrap;
+}
+
+h3 
+{
+	margin-top:200px;
+    color: #000000;
+    font-size: 30px;
+    text-align: center;
+    white-space: nowrap;
+}
+
+.box
+{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.box.Presentationn
+{
+	margin-top:200px;
+}
+
+.transparent-cadre-Presentationn
+ {
+    background-color: rgb(0, 0, 0);
+    border: 3px solid #ffffff;
+    border-radius: 10px;
+    padding: 25px;
+    width: 30%;
+    color: #000;
+	margin-right: 80px;
+  }
+
+  .transparent-cadre-Presentationn p
+  {
+    color: #ffffff;
+  }
+
+.PresentationnImage
+{
+	margin-right: 10px;
+}
+
+/*----------------------------------------Expo 2023------------------------------------------------------------*/
+.cadre_gros-Presentation
+ {
+    margin-top:150px;
+  }
+ 
+.transparent-cadre-Presentation
+ {
+    background-color: rgb(0, 0, 0);
+    border: 2px solid #ffffff;
+    border-radius: 10px;
+    padding: 25px;
+    width: 30%;
+  }
+
+  .transparent-cadre-Presentation p
+  {
+    color: #fff;
+  }
+
+  .BxW
+  {
+    float:left;
+    padding:25px;
+    width: 600px;
+    margin-left: 100px;
+  }
+
+.cadre_gros-FDL
+{
+	margin-top: 150px;
+}
+
+  .transparent-cadre-FDL
+  {
+    background-color: rgb(0, 0, 0);
+    border: 2px solid #ffffff;
+    border-radius: 10px;
+    padding: 35px;
+    width: 30%;
+    color: #000;
+  }
+
+  .transparent-cadre-FDL p
+  {
+    color: #ffffff;
+  }
+
+  .ImageFDL
+  {
+    float:left;
+    padding:25px;
+    width: 490px;
+	margin-right: 100px;
+  }
+
+.cadre_gros-deux
+{
+	margin-top: 150px;
+}
+
+.transparent-cadre-deux
+{
+    background-color: #000000;
+    border: 2px solid #ffffff;
+    border-radius: 10px;
+    padding: 35px;
+    width: 30%;
+    float:right;
+    color: rgb(0, 0, 0);
+}
+
+.transparent-cadre-deux p
+{
+  color: #fff;
+}
+
+.ImageWxB
+{
+	float:left;
+	padding:25px;
+	width: 500px;
+	margin-left: 100px;
+}
+
+/*-----------------------------Expo 2024------------------------------------------------------------------------------------------*/
+.Cadre-Exposition-2024-1
+{
+    background-color: #000000;
+    border: 2px solid #ffffff;
+    border-radius: 10px;
+    padding: 35px;
+    width: 30%;
+    float:left;
+    margin-top:10%;
+    margin-left:15%;
+    color: rgb(0, 0, 0);
+}
+
+.Otto
+{
+  margin-top:10% ;
+  margin-left:10%;
+  width: 15%;
+  height: 15%;
+}
+
+.Cadre-Exposition-2024-1 p
+{
+  color: #fff;
+}
+
+
+.Cadre-Exposition-2024-2
+{
+    background-color: #000000;
+    border: 2px solid #ffffff;
+    border-radius: 10px;
+    padding: 35px;
+    width: 30%;
+    float:right;
+    margin-top:15%;
+    margin-right:15%;
+    color: rgb(0, 0, 0);
+}
+
+.Mort /*Image*/
+{
+  margin-top:13% ;
+  margin-left:13% ;
+  width: 35%;
+  height: 35%;
+}
+
+.Cadre-Exposition-2024-2 p
+{
+  color: #fff;
+}
+
+
+.Gros-Cadre-Exposition-2024-3
+{
+	margin-top: 13%;
+}
+
+.Cadre-Exposition-2024-3
+{
+    background-color: #000000;
+    border: 2px solid #ffffff;
+    border-radius: 10px;
+    padding: 35px;
+    width: 30%;
+    color: rgb(0, 0, 0);
+}
+
+img.Programme_expo /*Image*/
+{
+ width: 30vw;
+ height: 60vh;
+ margin-left: 8%;
+}
+
+.Cadre-Exposition-2024-3 p
+{
+  color: #fff;
+}
+
+
+.Cadre-Exposition-2024-4
+{
+    background-color: #000000;
+    border: 2px solid #ffffff;
+    border-radius: 10px;
+    padding: 35px;
+    width: 30%;
+    float:left;
+    margin-top:10%;
+    margin-left:60%;
+    color: rgb(0, 0, 0);
+}
+
+.Cadre-Exposition-2024-4 p
+{
+  color: #fff;
+}
+
+.FDLencore
+{
+  width: 35%;
+  height: 40%; 
+  margin-top: -250px;
+  margin-left: 15%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  /*----------------------------------------------Billeterie-----------------------------------------------------------------------*/
+
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+  }
+
+  h1 {
+    text-align: center;
+  }
+
+  .Affiche
+  {
+    margin-left: 150px;
+    width: 400px;
+  }
+
+  form {
+    max-width: 400px;/*Longeur du champs de texte*/
+
+  }
+
+  label {
+    display: block;
+    margin-bottom: 10px;
+  }
+
+  input[type="text"],
+  input[type="email"],
+  select {
+    width: 100%;
+    padding: 10px;/*épaisseur du champs de texte*/
+    margin-bottom: 20px;
+  }
+
+  input[type="submit"] {
+    background-color: #000000;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+  }
+
+  input[type="submit"]:hover {
+    background-color: #45a049;
+  }
+
+  .price {
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+
+
+.Cadre-Exposition-2024-5 
+{
+  background-color: #ffffff;
+    border: 2px solid #000000;
+    border-radius: 10px;
+    padding: 35px;
+    width: 30%;
+    color: rgb(0, 0, 0);
+  
+}
+
+.transport-list {
+  margin-bottom: 10px;
+}
+
+.transport-list h3 {
+  margin-top: 0;
+  font-size: 18px;
+}
+
+.transport-list ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.transport-list li {
+  margin-bottom: 5px;
+}
+
+.transport-list span {
+  font-weight: bold;
+  margin-top: 5%;
+}
+
+.Cadre-Billet-form
+{
+	margin-top: 75px;
+}
+
+
+  /*--------------------------------------Equipe-----------------------------------------------------------------*/
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #454444;
+    margin: 0;
+    
+  }
+  
+  h1 {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .team-member {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .team-member img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-right: 20px;
+    object-fit: cover;
+  }
+  
+  .team-member-details {
+    font-weight: bold;
+  }
+  
+  
+/*-------------------------------------- FOOTER -----------------------------------------------------------------*/
+
+.footerHeight
+{
+	margin-top: 5vw;
+}
+
+footer
+{
+	background-color: black;
+	color: white;
+	padding: 20px;
+	box-sizing: border-box;
+	width: 100%;
+}
+
+footer > ul
+{
+	list-style: none;
+	display: flex;
+	justify-content: center;
+	margin: 0;
+	padding: 0;
+}
+
+footer > ul > li
+{
+	margin-right: 20px;
+}
+
+footer > p
+{
+	text-align: center;
+	margin-top: 10px;
+}
