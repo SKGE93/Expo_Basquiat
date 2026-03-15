@@ -41,8 +41,8 @@ Expo_Basquiat/
 
 | Technologie | Utilisation |
 |-------------|-----------|
-| **HTML5** | Structure et contenu |
-| **CSS3** | Mise en page et design |
+| **HTML** | Structure et contenu |
+| **CSS** | Mise en page et design |
 | **JavaScript** | Interactivité et traduction |
 
 ## 🚀 Comment utiliser
@@ -62,10 +62,10 @@ Ce projet démontre la compréhension de :
 
 ## 🎓 Conclusion
 
-Expo Basquiat est plus qu'un simple site fictif : c'est une preuve de concept montrant comment combiner créativité et compétences techniques pour créer une expérience web complète. Idéal pour un portfolio de développeur frontend ! 🚀
+Expo Basquiat est plus qu'un simple site fictif, c'est une preuve de concept montrant comment combiner créativité et compétences techniques pour créer une expérience web complète. Idéal pour un portfolio de développeur frontend ! 🚀
 
 ---
 
 **Auteur** : SKGE93  
-**Date** : 2026  
+**Date** : 2023  
 **Statut** : ✅ Projet pédagogique réalisé
